@@ -4,7 +4,7 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "build": "webpack & webpack --config webpack.config.production.js",
+    "build": "webpack & webpack --config webpack.config.js",
     "dev": "node webpack-dev-server.js",
     "devtest": "mocha tests/unit --compilers js:babel-register --recursive --reporter spec",
     "lint": "eslint ./*.js ./**/*.js",

@@ -5,7 +5,7 @@ import CreatePost from '../components/CreatePost';
 
 export default {
     home: {
-        path: '/home',
+        path: '/',
         method: 'get',
         page: 'homePage',
         title: 'Reditt',
