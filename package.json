@@ -41,7 +41,9 @@
     "react-router": "^1.0.3",
     "react-timeago": "^3.4.3",
     "serialize-javascript": "^1.0.0",
-    "serve-favicon": "^2.1.6"
+    "serve-favicon": "^2.1.6",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.6.5"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
