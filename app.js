@@ -19,7 +19,7 @@ app.registerStore(ApplicationStore);
 app.registerStore(PostStore);
 
 app.plug(fetchrPlugin({ xhrPath: '/_api' }));
-app.plug(ReactRouterPlugin());
+//app.plug(ReactRouterPlugin());
 
 
 module.exports = app;

@@ -26,6 +26,7 @@ class SinglePost extends React.Component {
 
   constructor(props,context) {
     super(props,context);
+    //console.log("Inside SinglePost props.currentRoute: ",props.currentRoute);
     this.getPost=this.getPost.bind(this);
     this._onStoreChange=this._onStoreChange.bind(this);
     this.state = {post : this.context.getStore(PostStore).getPost(props.postId?props.postId:props.currentRoute.params.postId),

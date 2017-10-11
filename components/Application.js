@@ -11,7 +11,8 @@ import HomePage from "./HomePage"
 
 class Application extends React.Component {
     render() {
-        var Handler = this.props.currentRoute.handler;
+        //console.log("In Application Component this.props.currentRoute :",this.props.currentRoute)
+        var Handler = this.props.currentRoute?this.props.currentRoute.handler:HomePage;
 
         return (
           <Handler/>
