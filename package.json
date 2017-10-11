@@ -9,7 +9,7 @@
     "devtest": "mocha tests/unit --compilers js:babel-register --recursive --reporter spec",
     "lint": "eslint ./*.js ./**/*.js",
     "start": "node start.js",
-    "postinstall":"webpack & webpack --config webpack.config.js"
+    "postinstall":"webpack & webpack --config webpack.config.production.js"
   },
   "dependencies": {
     "babel": "^6.5.2",
